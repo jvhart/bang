@@ -18,4 +18,12 @@ launch_server.bat
 While server is running, navigate to the appropriate host:port in your browser, default is http://localhost:8000/.  Login with the credentials just created.
 
 ## Accessing the front end
-The dns for the local host is set to scheduler.local:8000 and the lan hosted is set to scheduler:80 or just scheduler.
+The dns for the local host is set to scheduler.local:8000 and the lan hosted is set to scheduler:80 or just scheduler.  In order for the aliases to work, you must add them to the hosts file on your machine.  For the local host add:
+'''bash
+127.0.0.1 scheduler.local
+'''
+Likewise for your machine's IP address:
+'''bash
+0.0.0.0 scheduler
+'''
+See for example https://www.liquidweb.com/kb/edit-host-file-windows-10/ to find the hosts file on your machine.
