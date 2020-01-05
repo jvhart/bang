@@ -16,3 +16,6 @@ Launch the Django server.  Run the following batch file from the project root di
 launch_server.bat
 ```
 While server is running, navigate to the appropriate host:port in your browser, default is http://localhost:8000/.  Login with the credentials just created.
+
+## Accessing the front end
+The dns for the local host is set to scheduler.local:8000 and the lan hosted is set to scheduler:80 or just scheduler.
