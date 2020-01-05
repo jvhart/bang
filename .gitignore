@@ -66,6 +66,8 @@ coverage.xml
 *.log
 local_settings.py
 db.sqlite3
+bang/*/migrations/*.py
+bang/*/migrations/*.pyc
 
 # Flask stuff:
 instance/
